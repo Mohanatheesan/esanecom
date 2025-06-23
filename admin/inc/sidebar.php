@@ -9,16 +9,17 @@
                 Pages
             </li>
 
-            <li class="sidebar-item <?php if ($_SERVER['REQUEST_URI'] == "index.php") {
+            <li class="sidebar-item <?php if ($_SERVER['REQUEST_URI'] == "/esanecom/admin/index.php") {
                 echo "active";
             } ?>">
-                <a class="sidebar-link" href="index.html">
+                <a class="sidebar-link" href="index.php">
                     <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
                 </a>
             </li>
-            <li class="sidebar-item active">
-                <a class="sidebar-link" href="index.html">
-                    <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+
+            <li class="sidebar-item ">
+                <a class="sidebar-link" href="category.php">
+                    <i class="align-middle" data-feather="grid"></i> <span class="align-middle">Category</span>
                 </a>
             </li>
 
